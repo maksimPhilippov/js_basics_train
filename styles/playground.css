@@ -8,21 +8,45 @@ body {
 }
 
 header {
-    padding: .5em;
+    padding: 0.5em;
 
     text-align: center;
     font-size: 1.5em;
-    background-color: #00D8F0;
+    background-color: #00d8f0;
 }
 
 .section-header {
-    padding: .1em 2em;
+    padding: 0.1em 2em;
+}
+
+section {
+    padding: 1em;
 }
 
 section:nth-child(odd) {
-    background-color: #00D8F0;
+    background-color: #00d8f0;
 }
 
 section:nth-child(even) {
-    background-color: #0BD99E;
+    background-color: #0bd99e;
+}
+
+.long-loading-button {
+    margin: 1em auto;
+    padding: 0.5em;
+
+    width: fit-content;
+
+    border-style: solid;
+    border-radius: 2px;
+}
+
+.disabled-button {
+    border-color: grey;
+    color: grey;
+}
+
+.enabled-button {
+    border-color: #0275db;
+    color: #0275db;
 }
