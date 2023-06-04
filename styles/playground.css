@@ -1,0 +1,28 @@
+body {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: .5em;
+
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #00D8F0;
+}
+
+.section-header {
+    padding: .1em 2em;
+}
+
+section:nth-child(odd) {
+    background-color: #00D8F0;
+}
+
+section:nth-child(even) {
+    background-color: #0BD99E;
+}
