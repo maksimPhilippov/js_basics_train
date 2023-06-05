@@ -32,7 +32,6 @@ section:nth-child(even) {
 }
 
 .my-button {
-    margin: 1em auto;
     padding: 0.5em;
 
     width: fit-content;
@@ -62,4 +61,32 @@ section:nth-child(even) {
     background-color: red;
     border: 1px solid black;
     border-radius: 3px;
+}
+
+.menu-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pig-menu {
+    margin: 0.5rem;
+    padding: 1rem;
+
+    border: 2px solid #0275db;
+    border-radius: 5px;
+}
+
+.pig-creator {
+    font-size: 4em;
+    color: grey;
+    transition: color 0.5s ease-in;
+}
+
+.pig-creator:hover {
+    color: #0275db;
+}
+
+.pig-shelf {
+    display: flex;
+    flex-flow: row wrap;
 }
