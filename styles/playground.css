@@ -31,7 +31,7 @@ section:nth-child(even) {
     background-color: #0bd99e;
 }
 
-.long-loading-button {
+.my-button {
     margin: 1em auto;
     padding: 0.5em;
 
@@ -49,4 +49,17 @@ section:nth-child(even) {
 .enabled-button {
     border-color: #0275db;
     color: #0275db;
+}
+
+.array-input {
+    margin: 2em;
+}
+
+.array-element {
+    margin: 1em 0.1em;
+    padding: 0.5em;
+
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 3px;
 }
