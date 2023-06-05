@@ -32,7 +32,7 @@ function pig_counter() {
 export const get_pig_name = pig_counter();
 
 function calculate_pig_size(dollars) {
-    return String(10 + dollars) + "px";
+    return String(10 + dollars * 3) + "px";
 }
 
 function draw_pig() {
