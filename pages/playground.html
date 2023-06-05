@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playground</title>
-    <link rel="stylesheet" href="/styles/playground.css">
-    <script type="module" src="/js/main.js"></script>
-</head>
-<body>
-    <header>Playground</header>
-    <main>
-        <section class="promises-section">
-            <h2 class="section-header">Promises</h2>
-            <div class="promises-content">
-                <div class="long-loading-button disabled-button">do hard work</div>
-            </div>
-        </section>
-        <section>
-            <h2 class="section-header">Arrays</h2>
-            <div class="array-content">
-
-            </div>
-        </section>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Playground</title>
+        <link rel="stylesheet" href="/styles/playground.css" />
+        <script type="module" src="/js/main.js"></script>
+    </head>
+    <body>
+        <header><h1>Playground</h1></header>
+        <main>
+            <section class="promises-section">
+                <h2 class="section-header">Promises</h2>
+                <div class="promises-content">
+                    <div class="my-button long-loading-button disabled-button">
+                        do hard work
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-header">Arrays</h2>
+                <div class="array-content">
+                    <div class="control-array">
+                        <input type="text" class="array-input" />
+                        <span class="my-button sort-button enabled-button"
+                            >sort</span
+                        >
+                    </div>
+                    <div class="array-canvas"></div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
